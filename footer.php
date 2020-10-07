@@ -1,3 +1,9 @@
+<?php wp_nav_menu( array(
+            array(
+                'theme_location' => 'footer_menu'
+            )
+        ) );
+        ?>
     <footer>
         <h2><?php bloginfo( 'title' ); ?>Footer</h2>
         <p>
