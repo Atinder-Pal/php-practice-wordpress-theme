@@ -16,10 +16,11 @@
             <?php bloginfo( 'title' ); ?>
             Navigation
         </h2>
-        <?php wp_nav_menu( array(
-            array(
-                'theme_location' => 'main_menu'
-            )
-        ) );
-        ?>
+        <?php 
+      wp_nav_menu( // Used for outputting WP menus.
+        array( // Assoc. array of args.
+          'theme_location' => 'main_menu' // Which menu to display.
+        )
+      );
+    ?>
     </nav>
